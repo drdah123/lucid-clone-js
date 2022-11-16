@@ -1,0 +1,117 @@
+.mySwiper2 {
+  background-image: url('../../assest/Screenshot\ 2022-11-13\ 041856.jpg');
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  position: relative;
+  margin-top: -6px;
+}
+
+.swiper-name h3 {
+  color: #e4dfd4;
+  position: absolute;
+  top: 20%;
+  font-family: SchnyderSDemi, Georgia, Times, Times New Roman, serif,
+    Apple Color Emoji, Segoe UI Emoji;
+  font-size: 3rem;
+  left: 90%;
+  font-weight: 500;
+  opacity: 0;
+  width: 200%;
+}
+
+@media (max-width: 670px) {
+  .swiper-name h3 {
+    font-size: 1.2rem;
+    top: 37%;
+    left: 120%;
+  }
+
+  .swiper-name p {
+    font-size: 0.2rem;
+    margin: 4rem 2.5rem;
+  }
+}
+
+.swiper-name {
+  z-index: 100;
+}
+.swiper-active h3,
+.swiper-active p,
+.swiper-active div {
+  opacity: 1 !important;
+}
+.swiper-item p {
+  position: absolute;
+  top: 35%;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: GTAmerica, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Roboto, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  left: 85%;
+  width: 100%;
+  opacity: 0;
+
+  color: #fff;
+}
+
+.swiper-item img {
+  position: absolute;
+  top: 57%;
+  transform: translate(0, -50%);
+  width: 100vw !important;
+}
+
+.swiper-car-design {
+  opacity: 0;
+}
+.swiper-car-design a:nth-child(1) {
+  border: 0;
+  background: #fff;
+  color: #000;
+  width: 10.5vw;
+  text-align: center;
+  top: 78%;
+  left: 75%;
+  min-width: 100px;
+  padding: 1.3rem 0;
+  font-size: 1vw;
+  position: absolute;
+}
+.swiper-car-design a:nth-child(2) {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  top: 81%;
+  letter-spacing: -0.6px;
+  font-size: 1vw;
+
+  left: 50vw;
+  /* margin-left: 5vw; */
+  width: 7vw;
+  text-align: center;
+
+  position: absolute;
+}
+.swiper-button-next {
+  left: 85vw !important;
+  top: 57% !important;
+  color: #fff !important;
+}
+
+.swiper-button-prev {
+  left: 15vw !important;
+  top: 57% !important;
+
+  color: #fff !important;
+}
+
+.swiper-pagination {
+  top: 95% !important;
+  width: 90% !important;
+  margin: 0 2.5% 0 5%;
+  background: rgb(82, 82, 82) !important;
+  height: 1px !important;
+}
+.swiper-pagination span {
+  background: #fff !important;
+}
