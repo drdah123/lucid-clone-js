@@ -1,6 +1,6 @@
 .banner-video-bg {
   height: 100vh;
-  width: 99vw;
+  width: 100vw;
   top: 0;
   left: 0;
   z-index: -15;
@@ -56,10 +56,8 @@
     font-size: 2.125rem;
   }
   .banner-air-links a:nth-child(2) {
-    margin: 5% 20%;
-    /* display: grid; */
-    flex-wrap: wrap;
-
+    margin: 5% 15%;
+    display: grid;
     width: fit-content;
   }
   .banner-details p {

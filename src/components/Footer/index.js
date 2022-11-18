@@ -96,7 +96,6 @@ const Footer = () => {
             <select
               id="footer-lang-selector"
               aria-label="Change Locale"
-              className=""
               defaultValue="en"
             >
               <option value="en">United States – English</option>

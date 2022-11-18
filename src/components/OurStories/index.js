@@ -23,7 +23,6 @@ const OurStories = () => {
         slidesPerView={3}
         spaceBetween={0}
         freeMode={true}
-        hidden={false}
         pagination={{
           type: 'progressbar',
         }}

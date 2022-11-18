@@ -60,3 +60,29 @@ footer a:hover {
   font-size: 1rem;
   margin-top: 2.7rem;
 }
+
+@media (max-width: 670px) {
+  .lucid-footer h2 {
+    border-bottom: 1px solid rosybrown;
+  }
+  .lucid-footer {
+    flex-direction: column;
+    margin-left: 1%;
+  }
+  .lucid-footer li {
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .footer-of-footer {
+    flex-direction: column;
+  }
+  #footer-lang-selector {
+    width: 100%;
+  }
+  .footer-of-footer-icons a {
+    padding: 0 1rem;
+  }
+  .footer-of-footer-icons {
+    margin: 10% 50% 0 10%;
+  }
+}

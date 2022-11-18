@@ -1,22 +1,19 @@
 .newsletter {
   text-transform: uppercase;
   background-color: #dbd4c5;
-  padding: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  /* position: relative; */
-  width: 110vw;
+  justify-content: center;
   flex-direction: row;
+  overflow: hidden;
 }
-.newsletter div {
-  /* margin: 0 10%; */
+.newsletter div .newsletter-head {
+  margin-left: 1rem;
 }
+
 .newsletter-form {
-  width: 150%;
   padding: 2rem auto auto auto;
-}
-.newsletter-label {
+  margin-right: -5rem;
 }
 
 .newsletter-form-item-input input {

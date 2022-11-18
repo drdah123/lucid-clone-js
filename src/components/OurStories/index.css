@@ -1,9 +1,9 @@
 .our-stories {
-  width: 110vw;
+  width: 100vw;
   height: 210vh;
   background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
   position: relative;
+  overflow-x: hidden;
 }
 
 .mySwiper {
@@ -11,7 +11,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* width: 100vw; */
 }
 .mySwiper p {
   color: #e4dfd4;
@@ -100,9 +99,10 @@
     display: grid;
     height: fit-content;
     top: 40%;
+    left: 10%;
   }
   .our-stories {
-    height: 260vh;
+    height: 200vh;
   }
   .our-stories-header a {
     display: none;
@@ -114,6 +114,9 @@
     height: 190px;
     width: 280px;
   }
+  .our-stories h3 {
+    top: 5vh;
+  }
   .mySwiper {
     width: 1020px;
   }
@@ -122,14 +125,20 @@
   .our-stories .projects {
     display: grid;
     height: fit-content;
-    top: 42.5%;
-    padding-top: 10%;
+    top: 90vh;
   }
 
   .our-stories {
-    height: 210vh;
+    height: 160vh;
+  }
+  .mySwiper .swiper-pagination {
+    margin-right: 70%;
+  }
+  .projects-content p {
+    font-size: 0.5rem !important;
   }
 }
+
 .our-stories .projects img {
   height: 100%;
   width: 100%;
