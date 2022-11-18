@@ -61,6 +61,7 @@
   display: block;
   overflow: hidden;
   position: relative;
+  transition: 1s;
 }
 .navbar .navbar-item .newsletter-a::before {
   content: '';

@@ -3,7 +3,7 @@ import './index.css';
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner" id="home">
       <video loop autoPlay muted className="banner-video-bg">
         <source
           src="https://www.lucidmotors.com/s3fs-public/2022-08/sapphire-web-hero.webm"
@@ -14,10 +14,10 @@ const Banner = () => {
         <div className="banner-air">
           <h1>Lucid Air</h1>
           <div className="banner-air-links">
-            <a href="#">
+            <a href="##">
               <span className="text-area">Discover Air</span>
             </a>
-            <a href="#" alt="">
+            <a href="##" alt="">
               Reserve now
             </a>
           </div>

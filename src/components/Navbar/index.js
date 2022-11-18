@@ -39,7 +39,7 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <a href="##" alt="" className="logo">
+          <a href="#home" alt="" className="logo">
             <img
               src="https://www.lucidmotors.com/media/image/main-nav/logo.svg"
               alt=""

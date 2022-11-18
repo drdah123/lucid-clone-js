@@ -1,5 +1,5 @@
 import React from 'react';
-import { FreeMode, Pagination } from 'swiper';
+import { FreeMode, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import wheel from '../../assest/stealth_3quarter-front-2_web-16x9.webp';
 import glass from '../../assest/glass-cockpit-ota-thumbnail.webp';

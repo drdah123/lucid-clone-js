@@ -19,13 +19,14 @@
   transform: translate(-50%, -50%);
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
 .banner-air-links {
   width: 100%;
   margin-left: 25%;
+  flex-wrap: nowrap;
 }
 
 .banner-air a {
@@ -45,8 +46,7 @@
   color: #000;
   padding: 1.4rem 2.75rem;
   text-align: center;
-  /* width: 7rem; */
-  /* margin: 0 50%; */
+
   position: relative;
   overflow: hidden;
   display: inline-flex;
@@ -57,7 +57,9 @@
   }
   .banner-air-links a:nth-child(2) {
     margin: 5% 20%;
-    display: grid;
+    /* display: grid; */
+    flex-wrap: wrap;
+
     width: fit-content;
   }
   .banner-details p {

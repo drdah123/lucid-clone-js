@@ -47,7 +47,7 @@ const Menu = ({ isMenuClicked, setIsMenuClicked }) => {
             </li>
           </div>
           <li>
-            <button>Lucid Gravity</button>
+            <a href="##">Lucid Gravity</a>
           </li>
           <li>
             <a href="##">Design Yours</a>
