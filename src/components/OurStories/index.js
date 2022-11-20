@@ -15,7 +15,7 @@ const OurStories = () => {
         <div>
           <h3>Our stories</h3>
         </div>
-        <div>
+        <div className="our-stories-header-link">
           <a href="##2">View all</a>
         </div>
       </div>

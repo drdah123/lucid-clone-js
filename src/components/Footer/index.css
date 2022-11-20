@@ -3,6 +3,9 @@ footer {
   height: 100vh;
 }
 
+footer select {
+  background: inherit;
+}
 .lucid-footer {
   display: flex;
   justify-content: flex-end;

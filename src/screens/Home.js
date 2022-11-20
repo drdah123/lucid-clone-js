@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Newsletter from '../components/Newsletter';
 import OurStories from '../components/OurStories';
 import OurVision from '../components/OurVision';
+import CompareCars from './CompareCars';
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
       <OurVision />
       <OurStories />
       <Newsletter />
+      <CompareCars />
+
       <Footer />
     </div>
   );

@@ -68,7 +68,7 @@ function CarsProject() {
                     Design yours
                   </a>
                   <a
-                    href="#2"
+                    href="#cars-comparer"
                     alt=""
                     className={` ${
                       isActive
@@ -127,7 +127,7 @@ function CarsProject() {
                     Design yours
                   </a>
                   <a
-                    href="#2"
+                    href="#cars-comparer"
                     alt=""
                     className={` ${
                       isActive
@@ -186,7 +186,7 @@ function CarsProject() {
                     Design yours
                   </a>
                   <a
-                    href="##"
+                    href="#cars-comparer"
                     alt=""
                     className={` ${
                       isActive
