@@ -18,7 +18,6 @@ const Home = () => {
       <OurStories />
       <Newsletter />
       <CompareCars />
-
       <Footer />
     </div>
   );

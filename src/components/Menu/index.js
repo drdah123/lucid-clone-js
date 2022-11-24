@@ -6,7 +6,6 @@ const Menu = ({ isMenuClicked, setIsMenuClicked }) => {
   const [isClicked, setIsClicked] = useState(false);
   return (
     <div className={`home-menu ${isMenuClicked ? 'active' : ''}`}>
-      {console.log(isMenuClicked)}
       <div className="home-menu-header">
         <a href="##">sign in</a>
         <a href="##">stay update</a>

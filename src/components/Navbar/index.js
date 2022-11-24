@@ -47,7 +47,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-item">
-          <button onClick={() => console.log('its work')}>
+          <button onClick={() => {}}>
             <TfiWorld size={16} />
           </button>
           <a href="##" alt="">

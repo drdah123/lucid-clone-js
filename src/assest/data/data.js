@@ -142,3 +142,20 @@ export const cars = [
   { name: 'Air Touring (doesnt work)' },
   { name: 'Air Pure (doesnt work)' },
 ];
+export const carsProject = [
+  {
+    name: 'Air Grand Touring',
+    desc: 'From $154,000² / Up to 1,050 hp / Up to 516 mi range',
+    image: dreamTouring,
+  },
+  {
+    name: 'Air touring',
+    desc: 'from $107,400 ² / 620 hp² / 406 mi range²',
+    image: touringv5,
+  },
+  {
+    name: 'Air Pure',
+    desc: 'From $87,400² / 480 hp / 406 mi range',
+    image: grandTouring,
+  },
+];
