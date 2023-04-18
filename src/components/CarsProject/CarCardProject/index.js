@@ -5,24 +5,26 @@ const CarCardProject = ({ isActive, name, image, desc }) => {
     <div className="swiper-item">
       <img className="d-block w-100" src={image} alt="First slide" />
       <div className={`swiper-name ${isActive ? ' swiper-active' : ''}`}>
-        <h3
-          className={` ${
-            isActive
-              ? 'animate__animated animate__fadeInUp animate__delay-2s animate__slow swiper-active'
-              : ''
-          }`}
-        >
-          {name}
-        </h3>
-        <p
-          className={` ${
-            isActive
-              ? 'animate__animated animate__fadeInUp animate__delay-2s animate__slow swiper-active'
-              : ''
-          }`}
-        >
-          {desc}
-        </p>
+        <div className="card-header">
+          <h3
+            className={` ${
+              isActive
+                ? 'animate__animated animate__fadeInUp animate__delay-2s animate__slow swiper-active'
+                : ''
+            }`}
+          >
+            {name}
+          </h3>
+          <p
+            className={` ${
+              isActive
+                ? 'animate__animated animate__fadeInUp animate__delay-2s animate__slow swiper-active'
+                : ''
+            }`}
+          >
+            {desc}
+          </p>
+        </div>
         <div className="swiper-car-design">
           <a
             href="#2"
