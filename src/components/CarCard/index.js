@@ -66,8 +66,8 @@ const CarCard = ({ car, setCar }) => {
           <div>{car.color}</div>
         </div>
         <div className="car-wheel-container">
-          {carWheels.map((wheel) => {
-            return wheel.model === car.name ? (
+          {carWheels.map((wheel) =>
+            wheel.model === car.name ? (
               <img
                 onClick={() =>
                   setCar((cPrev) => ({ ...cPrev, wheel: wheel.name }))
@@ -76,8 +76,8 @@ const CarCard = ({ car, setCar }) => {
                 src={wheel.image}
                 alt=""
               />
-            ) : null;
-          })}
+            ) : null
+          )}
           <div></div>
           <div className="car-wheel-name">{car.wheel}</div>
           <div className="car-button">
