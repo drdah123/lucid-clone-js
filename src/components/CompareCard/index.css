@@ -1,18 +1,19 @@
 .compare-page-container {
   width: 100vw;
-  height: 150vh;
+  padding: 50px 0;
   background-color: black;
   color: aliceblue;
   position: relative;
 }
 .compare-card-container {
-  display: grid;
-  grid-template: 100vh / 33.5% 33.5% 33.5%;
-  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url('../../assest/Screenshot\ 2022-11-13\ 041856.jpg');
   background-size: cover;
   background-position: 0 88vh;
-  height: 100vh;
+  gap: 10px;
+  padding: 0 40px 0 20px;
 }
 
 .compare-card-header {
@@ -21,39 +22,25 @@
   justify-content: center;
   flex-direction: column;
 }
-.compare-page-container .car-container-col {
-  margin: 0 5%;
-}
+
 .compare-card-container .car-selector {
   border: 1px solid #fff;
-  text-align: start;
   padding: 5% 7.5%;
   display: flex;
-  justify-content: flex-start;
   cursor: pointer;
   position: relative;
 }
 .compare-card-container .car-selector svg {
-  position: absolute;
-  right: 5%;
   font-size: 1.5rem;
   transition: 0.5s;
-  text-transform: uppercase;
 }
-.compare-card-container .car-selector img:nth-child(1) {
-  width: 15%;
-  height: 40%;
-  margin-left: 50%;
+.compare-card-container .car-selector .car-selector-img-container {
+  height: 50%;
   position: absolute;
-  right: 28.5%;
+  display: flex;
+  right: 0;
 }
-.compare-card-container .car-selector img:nth-child(2) {
-  width: 15%;
-  height: 40%;
-  margin-left: 50%;
-  position: absolute;
-  right: 12.5%;
-}
+
 .active svg {
   rotate: 180deg;
 }
@@ -70,17 +57,19 @@
 }
 .car-color-container {
   margin-top: 10%;
-  display: grid;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
-  grid-template: 45% / 33% 33% 33%;
+}
+.car-color-container div {
+  width: 30%;
 }
 .car-wheel-container {
   display: grid;
   gap: 10px;
   width: 100%;
-  grid-template: 30% / 33% 33% 33%;
   position: relative;
-  top: 50%;
 }
 .car-wheel-container img {
   width: 100%;
@@ -128,4 +117,10 @@
 .car-menu-selector-item p {
   font-size: 1.001vw;
   margin: 1.8rem 0;
+}
+
+@media (max-width: 480px) {
+  .compare-card-container {
+    flex-direction: column;
+  }
 }

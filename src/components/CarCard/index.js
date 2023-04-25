@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { IoMdArrowDropdown } from 'react-icons/io';
-import './index.css';
 import { carWheels, carColors, carimages, cars } from '../../assest/data/data';
 
 const CarCard = ({ car, setCar }) => {
@@ -27,7 +26,7 @@ const CarCard = ({ car, setCar }) => {
         onClick={() => setOpenMenu((prevM) => !prevM)}
       >
         {car.name}
-        <div>
+        <div className="car-selector-img-container">
           <img src={carWheel?.image} alt="" />
           <img src={carColor?.image} alt="" />
           <IoMdArrowDropdown />

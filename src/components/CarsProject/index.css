@@ -15,9 +15,7 @@
   font-weight: 500;
   opacity: 0;
 }
-.card-header {
-  /* width: 200%; */
-}
+
 .swiper-name {
   display: flex;
   flex-direction: column;
@@ -45,6 +43,7 @@
   width: 80rem !important;
   object-fit: cover;
   position: absolute;
+  pointer-events: none;
 }
 
 .swiper-car-design {
