@@ -10,6 +10,7 @@ const Banner = () => {
           type="video/mp4"
         />
       </video>
+      <div />
       <div className="banner-air">
         <h1>Lucid Air</h1>
         <div className="banner-air-links">

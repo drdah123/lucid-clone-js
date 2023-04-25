@@ -9,7 +9,11 @@
 .banner {
   color: #fff;
   height: 100vh;
-  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
 }
 
 .banner-air {
@@ -17,17 +21,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
+  width: 100%;
 }
 .banner-air-links {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  gap: 20px;
 }
 
 .banner-air a {
-  margin: 0 2.5%;
   color: #fff;
 }
 .banner-air h1 {
@@ -78,7 +82,10 @@
 .banner-details {
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 .banner-details p {
   font-size: 2.25rem;
@@ -87,4 +94,9 @@
   font-weight: 700;
   font-family: SchnyderSDemi, Georgia, Times, Times New Roman, serif,
     Apple Color Emoji, Segoe UI Emoji;
+}
+@media (max-width: 768px) {
+  .banner-air-links {
+    flex-direction: column;
+  }
 }
